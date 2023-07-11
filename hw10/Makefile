@@ -1,0 +1,3 @@
+go-generate:
+	@echo "  >  Generating dependency files..."
+	@GOPATH=$(GOPATH) GOBIN=$(GOBIN) go generate ./...
